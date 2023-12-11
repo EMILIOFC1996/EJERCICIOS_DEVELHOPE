@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>HTML Lesson</title>
+  <style>
+    label {
+      display: block;
+    }
+  </style>
+</head>
+<form>
+  <h1>FORMULARIO REGISTRO </h1>
+
+  <label for="">email:</label>
+  <input type="email" id="email" name="email">
+
+  <label for="Contraseña">Contraseña:</label>
+  <input type="password" id="Contraseña" name="Contraseña" minlength="4">
+
+  <label for="Nombre">Nombre:</label>
+  <input type="" id="Nombre" name="Nombre" required minlength="4" maxlength="15">
+
+
+  <label for="Apellido">Apellido:</label>
+  <input type="" id="Apellido" name="Nombre" pattern="[A-Za-z]+" minlength="4" maxlength="15">
+
+  <label for="Fecha nacimiento">Fecha nacimiento:</label>
+  <input type="date" id="Fecha nacimiento" name="">
+
+  <label for="Telefono">Telefono</label>
+  <input type="tel" id="Telefono" name="telefono" pattern="\d{9}">
+  <br>
+  <hr>
+  <label>Plan gratis <sub><strong> 0€<sub>/mes</sub><sub></sub></strong></sub><input type="radio" value=" 0€"
+      name="Planes" /></label>
+  <hr>
+  <ul>
+    <h4>Planes de Pago</h4>
+    <hr>
+    <ul>
+      <li><label>Plan Low <sub><strong> 10€<sub>/mes</sub></strong></sub> <input type="radio" value=" 10€"
+            name="Planes" /></label>
+      </li>
+      <li><label>Plan Bussines <sub><strong> 30€<sub>/mes</sub></strong></sub><input type="radio" value=" 30€"
+            name="Planes" /></label></li>
+      <li><label>Plan Bussines Plus <sub><strong> 40€<sub>/mes</sub></strong></sub> <input type="radio" value=" 40€"
+            name="Planes" /></label>
+      </li>
+    </ul>
+    <hr>
+  </ul>
+  <label for="Pro"> Funciones <strong>Pro</strong> <sub>+8€</sub><input type="checkbox" id="Pro" name="plan pro"></label>
+  <hr>
+  <label for="Tarjeta Credito">Tarjeta Credito:</label>
+  <input type="" id="Tarjeta Credito" name="Telefono" required>
+
+  <label for="CVC">CVC:</label>
+  <input type="text" id="CVC" name="CVC" pattern="\d{3}" required>
+
+  <label for="Fecha caducidad">Fecha caducidad:</label>
+  <input type="month" id="Fecha caducidad" name="Caducidad">
+
+  <label for="Direccion">Direccion:</label>
+  <input type="text" id="Direccion" name="Direccion" required>
+  <br>
+  <br>
+  <button>Registrar</button>
+</form>
+
+<body></body>
+
+</html>
