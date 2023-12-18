@@ -1,0 +1,45 @@
+html{
+    margin:10px;
+    padding: 10px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#borde-carta{
+    width: 50%;
+    border:2px solid grey;
+    align-items: center ;
+    
+    
+}
+
+img{
+   width: 100%;
+
+    object-fit: cover;
+}
+picture{
+    border-bottom: 1px solid grey;
+}
+div{
+    padding: 8px;
+}
+li{
+    padding: 5px;
+    list-style: none;
+    border-top: 1px solid grey;
+
+}
+li:last-child{
+    border-bottom: 1px solid grey;
+}
+
+section.links, a{
+    
+    padding: 5px;
+    color: rgb(77, 77, 245)
+    
+}

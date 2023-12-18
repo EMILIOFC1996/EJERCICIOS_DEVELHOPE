@@ -1,0 +1,11 @@
+html{
+    background-color: rgba(158, 139, 139, 0.6);
+    font-family: sans-serif;
+    text-align: center;
+}
+body h1{
+    color: blue;
+}
+body p{
+    font-size: 20px;
+}
