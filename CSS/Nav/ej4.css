@@ -1,76 +1,83 @@
-*{
+* {
     margin: 0;
     margin-left: 0px;
     padding: 0px;
     /* background-color: antiquewhite; */
 }
-nav{
-/* margin-left: 0; */
-box-sizing: border-box;
-background-color: rgb(61, 58, 58);
-width: 100%;
-padding:5px;
-border-bottom: 2px white solid;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 15px;
+
+nav {
+    /* margin-left: 0; */
+    box-sizing: border-box;
+    background-color: rgb(61, 58, 58);
+    width: 100%;
+    padding: 5px;
+    border-bottom: 2px white solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 
 }
-.searchtext{
+
+.searchtext {
     padding: 3px;
     border-radius: 3px;
-    border: 1px grey solid ;
+    border: 1px grey solid;
 }
-.search{
+
+.search {
     padding: 3px;
     background-color: transparent;
-    border: green solid ;
-    border-radius:  3px ;
+    border: green solid;
+    border-radius: 3px;
     color: green;
 
 
 }
-a{
+
+a {
     color: aliceblue;
     text-decoration: none;
-  
+
 }
 
-button{
-   background: unset;
-   border: unset;
-   color: rgb(100, 99, 99);
-   padding: inherit;
+button {
+    background: unset;
+    border: unset;
+    color: rgb(100, 99, 99);
+    padding: inherit;
 }
-button:hover{
+
+button:hover {
     cursor: pointer;
     background-color: green;
     color: white;
 }
-select{
+
+select {
     font-size: inherit;
-   background-color: unset;
-   border: unset;
+    background-color: unset;
+    border: unset;
     color: grey;
     padding: inherit;
 }
-select:hover{
+
+select:hover {
     cursor: pointer;
 }
 
-  a{
+a {
     color: grey;
-    padding:inherit;
-    
+    padding: inherit;
 
-  }
-label{
+
+}
+
+label {
     color: white;
     font-weight: bold;
     padding: inherit
 }
 
-a:active{
+a:active {
     background-color: white;
 
 }
-  
