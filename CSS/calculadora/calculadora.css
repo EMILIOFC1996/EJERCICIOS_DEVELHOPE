@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+ body{
+  font-family: 'Courier New', Courier, monospace;
+   margin: 10%;
+ 
+}
+section{
+    margin: 0;
+    padding: 0;
+}
+#cabecera{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+section#cabecera #resultado{
+    grid-column: 1/5;
+    border-radius: 10px  10px  0 0;
+    background-color: darkslategrey;
+    color: white;
+    font-size: 2rem;
+    text-align: end;
+
+}
+div, aside{
+    text-align: center;
+    padding: 1rem;
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+div{
+    height: calc(100/6);
+
+}
+
+section#cabecera div{
+    background-color: rgba(209, 209, 209, 0.473);
+}
+aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:salmon;
+    grid-area: aside;
+    border-radius: 0 0 10px 0;
+}
+#teclado{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: "siete ocho nueve aside"
+    "cuatro cinco seis aside"
+    "uno dos tres aside"
+    "cero punto AC aside";
+}
+.class0{
+    grid-area: cero;
+    border-radius: 0 0 0 10px;
+    
+}
+.class1{
+    grid-area: uno;
+    
+}
+.class2{
+    grid-area: dos;
+    
+}
+.class3{
+    grid-area: tres;
+    
+}
+.class4{
+    grid-area: cuatro;
+    
+}
+.class5{
+    grid-area: cinco;
+    
+}
+.class6{
+    grid-area: seis;
+    
+}
+.class7{
+    grid-area: siete;
+    
+}
+.class8{
+    grid-area: ocho;
+    
+}
+.class9{
+    grid-area: nueve;
+    
+}
+.punto{
+    grid-area:punto;
+    
+}
+.AC{
+    grid-area: AC;
+    
+}
+
