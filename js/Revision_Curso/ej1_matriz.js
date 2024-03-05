@@ -1,9 +1,8 @@
-// function adultFilter(person) {
-//    if(person.age >=18){
-//     return person;
-//    }
- 
-// };
+function adultFilter(person) {
+  let adultos= person.filter(personas=>personas.age>=18);
+return adultos;
+
+};
 
 const persons = [
   { name: 'Paul', age: 16 },
@@ -19,6 +18,6 @@ const persons = [
 ];
 
 
-const adults = persons.filter(person=>person.age>=18);
+const adults = adultFilter(persons);
 console.log(persons);
-adults.forEach(Element=>console.log(`${Element.name}-${Element.age}`));
+adults.forEach(elemento=>console.log(`${elemento.name}-${elemento.age}`));

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Obtener valores de campos de entrada y etiquetas</title>
+</head>
+<body>
+    <div id="container">
+        <form>
+            <div>
+                <label>First Name:</label>
+                <input type="text" class="form-input" id="firstName" value="Mario" />
+            </div>
+            <div>
+                <label>Last Name:</label>
+                <input type="text" class="form-input" id="lastName" value="Rossi" />
+            </div>
+            <div>
+                <label>Age:</label>
+                <input type="number" class="form-input" id="age" value="25" />
+            </div>
+        </form>
+    </div>
+
+    <script>
+      
+        const formInputs = document.querySelectorAll('.form-input');
+
+        
+        formInputs.forEach(input => {
+        
+            const labelText = input.previousElementSibling.textContent;
+            console.log(labelText + ': ' + input.value);
+        });
+    </script>
+</body>
+</html>
